@@ -1,0 +1,23 @@
+// @font-face {
+//   font-family: "myfont";
+//   src: url('data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAVgAAsAAAAAB8gAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFZW7kgjY21hcAAAAYAAAABeAAABhpocBr5nbHlmAAAB4AAAAZQAAAG0hA0BqWhlYWQAAAN0AAAALwAAADYQw2pEaGhlYQAAA6QAAAAcAAAAJAfeA4RobXR4AAADwAAAAAwAAAAMC+kAAGxvY2EAAAPMAAAACAAAAAgAdgDabWF4cAAAA9QAAAAfAAAAIAEUAF1uYW1lAAAD9AAAAUUAAAJtPlT+fXBvc3QAAAU8AAAAIgAAADPTdPN0eJxjYGRgYOBikGPQYWB0cfMJYeBgYGGAAJAMY05meiJQDMoDyrGAaQ4gZoOIAgCKIwNPAHicY2Bk/sE4gYGVgYOpk+kMAwNDP4RmfM1gxMjBwMDEwMrMgBUEpLmmMDgwVDyzZG7438AQw9zA0AAUZgTJAQAnlwyleJzFkMENgDAMAy9t6QMxCA8W6Ca8mKMTd41iQnkwQS05VhxLiQIsQBQPMYFdGA9OueZ+ZHU/eSZLjUBtpXf1nyqiWXYNKplpsHmr/9i87qPTV6iDOrGVl4Qb4JcMcwAAeJwlT0Fu00AUnWfHdlISp7Fn7HimTjI2zYDa2KrtJIuoyYJuQCwqsUBICVIPAAu6KAsWlRASQoA4A0LiDFV7DC6AQEIcooYp/Pf/f/rSe196xCLkz3fzyuwTn9whB+SIHBMCew+Ja8SQqsqMPTBpsZC6pkqVdNIkMw8RJjYNilk1Dm3H7sLFAKUsZiozFKbV0ligCGIgEvyRt7vjmZ+w1VeDN/UD4zPYMN3pLif1/f0VLUZ+86zteZHnvW/altU0jEbXxbMwaFmtLbv+YnU5uxreNYZoR4o/fNIZCe/kbfU83g1bwPk5fDFyv656vKf7FQ98L3K2O80+76S3Kc5+3ur77Xj8g+hybpb52myQjs66T+ZkQVbkns4rWTnNkMrEdlhpaYpBgwXYAKFcYj4ti9khqnFqyp6cJ+NqVgTUTg+skqVM/gce43SCiNYfKUeO6+uXVAi6Bqd4QSNsfMHpu/oDTteUc8W5Xz+9vERY/74Z49taC4S/yTn9RfmFfqGNF/+OuoGjTGiHEptJnmf5X+3XSQV4nGNgZGBgAOJF0dH88fw2Xxm4WRhA4NolYXUE/f8hCwOzBJDLwcAEEgUAAJkI5QB4nGNgZGBgbvjfwBDDwgACQJKRARUwAwBHCQJsBAAAAAPpAAAEAAAAAAAAAAB2ANp4nGNgZGBgYGYIZGBnAAEmIOYCQgaG/2A+AwARJQFyAHicZY9NTsMwEIVf+gekEqqoYIfkBWIBKP0Rq25YVGr3XXTfpk6bKokjx63UA3AejsAJOALcgDvwSCebNpbH37x5Y08A3OAHHo7fLfeRPVwyO3INF7gXrlN/EG6QX4SbaONVuEX9TdjHM6bCbXRheYPXuGL2hHdhDx18CNdwjU/hOvUv4Qb5W7iJO/wKt9Dx6sI+5l5XuI1HL/bHVi+cXqnlQcWhySKTOb+CmV7vkoWt0uqca1vEJlODoF9JU51pW91T7NdD5yIVWZOqCas6SYzKrdnq0AUb5/JRrxeJHoQm5Vhj/rbGAo5xBYUlDowxQhhkiMro6DtVZvSvsUPCXntWPc3ndFsU1P9zhQEC9M9cU7qy0nk6T4E9XxtSdXQrbsuelDSRXs1JErJCXta2VELqATZlV44RelzRiT8oZ0j/AAlabsgAAAB4nGNgYoAALgbsgJmRiZGZkYWBsYI1JbEyM4+BAQARzwKvAAA=') format('woff'),
+//   url('https://www.ebuyhouse.com/static/skin/common/css/iconfont.svg?t=1521218087536#iconfont') format('svg');
+// }
+
+@font-face {
+  font-family: "myfont";
+  src: url('/static/font/SFUTimesTenRoman.TTF');
+}
+.iconfont {
+  font-family: "myfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dayin:before { content: "\e639"; }
+
+* {
+  font-family: 'myfont';
+}

@@ -1,0 +1,255 @@
+.body{
+  margin: 0;
+  padding: 1cm 0;
+  background-color: #ddd;
+  font-family: 'myfont' !important;
+  width: 100%;
+  line-height: 20pt;
+}
+.page {
+  width: 21cm;
+  min-height:29.7cm;
+  padding: 2cm;
+  margin: 0 auto;
+  border: 1px #D3D3D3 solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: 'myfont' !important;
+  margin-bottom: 1cm;
+}
+
+.box{
+  background-color: #fff;
+  text-align: justify;
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 2cm;
+  margin: 1cm auto;
+  border: 1px #D3D3D3 solid;
+  font-family: 'myfont' !important;
+  border-radius: 5px;
+}
+.title{
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  font-family: 'myfont' !important;
+  margin-bottom:20pt;
+}
+.sign{
+  padding:5pt 18pt;
+  font-family: 'myfont' !important;
+}
+.tle{
+  font-size: 15pt;
+  font-family: 'myfont' !important;
+}
+.station-underline {
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  text-indent: 0 !important;
+  text-align: center;
+  font-style: italic;
+  font-family: 'myfont' !important;
+}
+.top {
+  position: relative;
+  width: 893px;
+  margin:0 auto;
+  font-family: 'myfont' !important;
+  transform: translate(0, 38pt);
+}
+.top a{
+  position: absolute;
+  width:10pt;
+  font-family: 'myfont' !important;
+  height:10pt;
+  border-bottom-style:solid;
+  border-left-style:solid;
+  border-color:#F85252;
+  text-decoration: none;
+  left:30pt;
+  transform:rotate(44deg);
+}
+.top button{
+  float: right;
+  font-family: 'myfont' !important;
+}
+.box ol li {
+  padding-left: 5.5pt;
+  font-family: 'myfont' !important;
+}
+.box ol {
+  font-size: 10pt;
+  font-family: 'myfont' !important;
+}
+.ol-title {
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: 'myfont' !important;
+}
+.two{
+  text-indent: 0;
+  font-family: 'myfont' !important;
+}
+.ol-two {
+  /*text-indent: -18pt;*/
+  padding-left: 20pt;
+  font-family: 'myfont' !important;
+}
+.ol-two span:first-child {
+  text-indent: -18pt;
+  font-family: 'myfont' !important;
+}
+.ol-two label{
+  display: inline-block;
+  width:290pt;
+  margin-left:35pt;
+  font-family: 'myfont' !important;
+}
+.ol-two label input{
+  float:right;
+  font-family: 'myfont' !important;
+}
+.italic {
+  font-style: italic;
+  font-family: 'myfont' !important;
+  color:green;
+}
+.uppercase {
+  text-decoration: underline;
+  font-family: 'myfont' !important;
+  text-transform: uppercase;
+}
+.underline {
+  text-decoration: underline;
+  font-family: 'myfont' !important;
+  font-style: italic;
+}
+
+.tab-span {
+  display: inline-block;
+  font-family: 'myfont' !important;
+  margin-left: 20pt;
+  width: 140pt;
+}
+.m-t {
+  margin-top: 6pt;
+  font-family: 'myfont' !important;
+  text-indent: -1pt;
+}
+.m-l{
+  font-size: 10pt;
+  font-family: 'myfont' !important;
+  font-weight: bold;
+  margin-left:10pt;
+}
+label.title {
+  font-size: 12pt;
+  font-weight: bold;
+  font-family: 'myfont' !important;
+}
+span.underline {
+  text-decoration: underline;
+  font-family: 'myfont' !important;
+}
+span.ol {
+  margin-right: 3pt;
+  font-family: 'myfont' !important;
+}
+div.section {
+  text-indent: -12pt;
+  font-family: 'myfont' !important;
+}
+.fill-item {
+  margin-left: 40pt;
+  font-family: 'myfont' !important;
+}
+.fill-item-left {
+  font-family: 'myfont' !important;
+  float: left;
+  width: 22%;
+}
+.fill-item-right {
+  float: right;
+  width: 70%;
+  font-family: 'myfont' !important;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  font-style: italic;
+}
+.fill-checkbox {
+  font-family: 'myfont' !important;
+  margin-left: 40pt;
+}
+.fill-checkbox input {
+  float: right;
+  font-family: 'myfont' !important;
+}
+
+.clear {
+  clear: both;
+  font-family: 'myfont' !important;
+}
+.footer{
+  font-family: 'myfont' !important;
+  margin-top:20pt;
+  padding-left:20pt;
+}
+.footer div{
+  display: inline-block;
+  font-family: 'myfont' !important;
+  width:380px;
+  font-size: 10pt;
+}
+.footer .ol-title{
+  font-family: 'myfont' !important;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom:10pt;
+}
+.footer span{
+  font-family: 'myfont' !important;
+  display: inline-block;
+  width:70pt;
+}
+.footer .station-underline{
+  width:150pt;
+  font-family: 'myfont' !important;
+}
+.footer .time{
+  display: block;
+  width:100%;
+  margin-top:20pt;
+  font-family: 'myfont' !important;
+  text-align:right;
+}
+.fa-print:before {
+  font-family: 'myfont' !important;
+  content: "\f02f";
+}
+
+.btn-white {
+  color: inherit;
+  background: white;
+  font-family: 'myfont' !important;
+  border: 1px solid #e7eaec;
+}
+.btn {
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: 'myfont' !important;
+}
+.btn-group-sm>.btn, .btn-sm {
+  font-family: 'myfont' !important;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+span,p,div,em {
+  font-family: 'myfont' !important;
+}
