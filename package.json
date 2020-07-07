@@ -22,7 +22,7 @@
     "hx-webrtc": "^1.0.2",
     "hx-websdk": "^1.6.1",
     "js-md5": "^0.7.3",
-    "npm": "^6.9.0",
+    "npm": "^6.14.6",
     "vue": "^2.5.2",
     "vue-echarts-v3": "^1.0.19",
     "vue-html-to-paper": "^1.0.3",
