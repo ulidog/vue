@@ -13,7 +13,7 @@
     "build:dll": "webpack --config build/webpack.dll.conf.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "echarts": "^4.2.0-rc.2",
     "element-ui": "^2.9.1",
     "fundebug-javascript": "^1.8.0",
