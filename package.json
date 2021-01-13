@@ -64,7 +64,7 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
-    "hellojs": "^1.18.1",
+    "hellojs": "^1.18.6",
     "html-webpack-plugin": "^2.30.1",
     "js-base64": "^2.4.9",
     "node-notifier": "^5.1.2",
